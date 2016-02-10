@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: VictorCaldas
+description: My personal site
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://vcaldas.github.io
@@ -11,7 +11,7 @@ url: http://vcaldas.github.io
 baseurl: ''
 
 social:
-  github: streetturtle
+  github: vcaldas
   stackoverflow: ''
   linkedin:
   instagram: ''
@@ -27,7 +27,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: vcaldas
 comments: false
 
 permalink: /:year/:month/:title
@@ -35,7 +35,7 @@ permalink: /:year/:month/:title
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
 #paginate: 3
 
-highlighter: pygments
+highlighter: rouge
 
 markdown: kramdown
 kramdown:
