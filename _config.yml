@@ -1,17 +1,17 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: VictorCaldas
+description: My personal site
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: http://streetturtle.github.io
+url: http://vcaldas.github.io
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: '/jekyll-clean-dark'
+baseurl: ''
 
 social:
-  github: streetturtle
+  github: vcaldas
   stackoverflow: ''
   linkedin:
   instagram: ''
@@ -27,7 +27,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: vcaldas
 comments: false
 
 permalink: /:year/:month/:title
