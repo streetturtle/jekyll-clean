@@ -4,25 +4,25 @@ name: Blog Name
 description: Software Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: http://streetturtle.github.io
+url: http://redbinlee.github.io
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
-baseurl: '/jekyll-clean-dark'
+baseurl: 
 
-author: Pavel Makhov
-copyright: 2015-2018
+author: Hongbin Lee
+copyright:
 
 share:
-  facebook: true
-  twitter: true
-  gplus: true
+  facebook: false
+  twitter: false
+  gplus: false
   linkedin: true
-  pinterest: true
+  pinterest: false
   email: true
 
 social:
-  github: streetturtle
+  github: redbinlee
   stackoverflow: ''
   linkedin:
   instagram: ''
@@ -38,7 +38,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: 
 comments: false
 
 permalink: /:year/:month/:title/
