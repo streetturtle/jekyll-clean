@@ -2,7 +2,7 @@
 layout: post
 title: "Text formatting"
 date: 2016-11-02 16:25:06
-tags: jekyll
+tags: reference
 description: Text formatting examples.
 ---
 
