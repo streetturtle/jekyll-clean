@@ -10,24 +10,23 @@ url: http://oviche.github.io
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: ''
 
-author: Pavel Makhov
-copyright: 2015-2018
+
 
 share:
-  facebook: true
-  twitter: true
-  gplus: true
+  facebook: false
+  twitter: false
+  gplus: false
   linkedin: true
-  pinterest: true
+  pinterest: false
   email: true
 
 social:
-  github: streetturtle
+  github: oviche
   stackoverflow: ''
   linkedin:
   instagram: ''
   lastfm: ''
-  rss: feed.xml
+  rss:''
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
