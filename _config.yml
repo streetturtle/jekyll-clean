@@ -55,6 +55,4 @@ kramdown:
 
 exclude: ['README.md', 'LICENSE']
 
-gems:
- jekyll-paginate
 
