@@ -9,16 +9,17 @@ url: http://oviche.github.io
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: ''
-
+author: oviche
+copyright: 2023-2024
 
 
 share:
   facebook: false
   twitter: false
   gplus: false
-  linkedin: true
+  linkedin: false
   pinterest: false
-  email: true
+  email: false
 
 social:
   github: 
@@ -37,7 +38,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: oviche
 comments: false
 
 permalink: /:year/:month/:title/
