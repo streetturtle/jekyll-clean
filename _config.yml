@@ -21,12 +21,12 @@ share:
   email: true
 
 social:
-  github: oviche
+  github: streetturtle
   stackoverflow: ''
   linkedin:
   instagram: ''
   lastfm: ''
-  rss:''
+  rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
