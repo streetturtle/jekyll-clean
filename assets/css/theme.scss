@@ -17,7 +17,7 @@
 //********************************************************
 
 // Several accent colors, choose one or create your own!
-$accent-color: red; //#fff; //#3CA2A2;    // original =)
+$accent-color: #fff; //#3CA2A2;    // original =)
 //$accent-color: #C38FD6;  // velvet
 //$accent-color: #8FD6B3;  // greenish
 //$accent-color: #35B4DE;  // bluish
@@ -252,6 +252,13 @@ nav {
    transition: all .7s ease;
    height: 60px;	  
   }
+	
+ .navbar-dark .navbar-nav .nav-link {
+
+   color: $accent-color; 
+	
+	}
+	
   
   .navbar-brand:hover, .nav-link:hover {
     color: $accent-color; //!important;
