@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: Oviche
+description: Security Engineer
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://oviche.github.io
