@@ -247,7 +247,7 @@ nav {
   border-top: 3px #222 solid;
   border-bottom: 2px #000000 solid;
   .navbar-brand, .nav-link {
-   color: #777;
+   color: #fff; //#777
    //@include transition(color 0.31s);
    //transition: all .7s ease;
    height: 60px;	  
