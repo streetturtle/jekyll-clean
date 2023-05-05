@@ -1,5 +1,5 @@
 # coding: utf-8
-require 'jekyll-paginate-v2/version'
+
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-clean-dark"
