@@ -253,7 +253,7 @@ nav {
    height: 60px;	  
   }
   .navbar-brand:hover, .nav-link:hover {
-    color: white !important;
+    color: $accent-color; //!important;
   }
   .navbar-brand {
     font-size: 30px;
