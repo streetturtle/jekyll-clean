@@ -238,11 +238,12 @@ blockquote.warning p{
 //********************************************************
 nav {
   background-color: #222;
+  background-image: linear-gradient(141deg,#1f191a 0%,#363636 71%,#46403f 100%);	
   border-color: #080808;
   font-size: 18px;
   font-family: "Ubuntu", sans-serif;
   padding: 0 10px !important;
-  border-top: 3px #3CA2A2 solid;
+  border-top: 3px #222 solid;
   border-bottom: 2px #000000 solid;
   .navbar-brand, .nav-link {
    color: #777;
