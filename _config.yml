@@ -44,7 +44,7 @@ comments: false
 permalink: /:year/:month/:title/
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
-#paginate: 3
+paginate: 4
 
 #highlighter: rouge
 
