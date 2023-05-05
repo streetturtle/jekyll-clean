@@ -255,7 +255,9 @@ nav {
    height: 60px;	  
   }
 	
-
+ .nav-elm{
+   color:red;
+	}
   .navbar-brand:hover, .nav-link:hover {
     color: $accent-color; //!important;
   }
