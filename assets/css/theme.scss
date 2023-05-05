@@ -248,7 +248,7 @@ nav {
   border-top: 3px #222 solid;
   border-bottom: 2px #000000 solid;
   .navbar-brand, .nav-link {
-   color: $accent-color; //#777
+   color: red; //#777
    @include transition(color 0.31s);
    transition: all .7s ease;
    height: 60px;	  
@@ -264,7 +264,7 @@ nav {
   }
   .navbar-nav {
     margin-left: auto;
-    color: red; //added	  
+    
   }
   .navbar.shrink {
 //    min-height: 15px !important;
