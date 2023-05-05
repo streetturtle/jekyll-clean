@@ -17,12 +17,12 @@ share:
   facebook: false
   twitter: false
   gplus: false
-  linkedin: false
+  linkedin: true
   pinterest: false
   email: false
 
 social:
-  github: 
+  github: oviche
   stackoverflow: 
   linkedin:
   instagram: 
