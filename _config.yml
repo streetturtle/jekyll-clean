@@ -17,14 +17,14 @@ share:
   facebook: false
   twitter: false
   gplus: false
-  linkedin: true
+  linkedin: flase
   pinterest: false
   email: false
 
 social:
   github: oviche
   stackoverflow: 
-  linkedin:
+  linkedin: ahmed-alaa-hashim
   instagram: 
   lastfm: 
   rss: 
