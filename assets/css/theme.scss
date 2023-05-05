@@ -24,6 +24,7 @@ $accent-color: #fff; //#3CA2A2;    // original =)
 //$accent-color: #D2E354;  // yellowish
 //$accent-color: #52B54B;  // green
 
+$navbar-dark-color: ( "primary":#fff);
 $font-color: #dddddd;
 $background-color: #292929; //
 $post-panel-color: #363636; //#39393a;
@@ -276,14 +277,6 @@ nav {
    // padding: 4px 5px;
    // margin: 8px 15px 8px 0;
   }
-	
-  .nav-link{
-	  color:red;
-	}	
-
-.nav-item{
-	  color:red;
-	}	
 	
 	
 }
