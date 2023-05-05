@@ -91,13 +91,14 @@ ul.social-media {
   padding: 0 0 10px 0;
   li {
     display: inline-block;
+    color: $accent-color;	  
   }
   li > a {
     width: 45px;
     height: 45px;
     @include transition(color 0.2s);
     display: inline-block;
-    color: white;
+    color: $accent-color;
     &:hover {
       color: $accent-color;
     }
@@ -247,19 +248,13 @@ nav {
   border-top: 3px #222 solid;
   border-bottom: 2px #000000 solid;
   .navbar-brand, .nav-link {
-   color: #fff; //#777
-   @include transition(color 0.31s);
-   transition: all .7s ease;
+   color: $accent-color; //#777
+  // @include transition(color 0.31s);
+   //transition: all .7s ease;
    height: 60px;	  
   }
 	
- .navbar-dark .navbar-nav .nav-link {
 
-   color: $accent-color; 
-	
-	}
-	
-  
   .navbar-brand:hover, .nav-link:hover {
     color: $accent-color; //!important;
   }
