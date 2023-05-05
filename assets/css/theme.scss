@@ -261,7 +261,7 @@ nav {
     margin-left: auto;
   }
   .navbar.shrink {
-    min-height: 15px !important;
+//    min-height: 15px !important;
   }
   .navbar-toggler {
   //  margin: 13px 15px 13px 0;
@@ -273,14 +273,14 @@ nav {
 }
 
 nav.shrink {
-  a {
+ // a {
  //   font-size: 15px;
  //   padding: 0 10px !important;
-  }
-  .navbar-brand {
-    font-size: 25px;
-    height: inherit;
-  }
+ // }
+//  .navbar-brand {
+  //  font-size: 25px;
+  //  height: inherit;
+ // }
 }
 
 //********************************************************
