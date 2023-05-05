@@ -39,7 +39,8 @@ $background-pattern: 'random-grey-variations.png';
 body {
   color: $font-color;
   //background: $background-color url(pics/background/#{$background-pattern});
-  background-image: linear-gradient(141deg,#1f191a 0%,#363636 71%,#46403f 100%);	
+ // background-image: linear-gradient(141deg,#1f191a 0%,#363636 71%,#46403f 100%);	
+   background: $post-panel-color;	
 }
 .card {
   background-color: $post-panel-color;
@@ -330,7 +331,8 @@ table.inner-borders {
 }
 
 .footer-distributed {
-  background-color: $footer-background-color;
+ // background-color: $footer-background-color;
+background-image: linear-gradient(141deg,#1f191a 0%,#363636 71%,#46403f 100%);	
   font: normal 16px sans-serif;
   padding: 20px 25px;
   margin-top: 80px;
