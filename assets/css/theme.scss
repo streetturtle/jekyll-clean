@@ -243,11 +243,12 @@ nav {
   font-family: "Ubuntu", sans-serif;
   padding: 0 10px !important;
   border-top: 3px #3CA2A2 solid;
-  border-bottom: 1px #000000 solid;
+  border-bottom: 2px #000000 solid;
   .navbar-brand, .nav-link {
    color: #777;
    @include transition(color 0.31s);
    transition: all .7s ease;
+   height: 30px;	  
   }
   .navbar-brand:hover, .nav-link:hover {
     color: white !important;
