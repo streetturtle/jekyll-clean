@@ -252,11 +252,13 @@ nav {
    color: red; //#777
    @include transition(color 0.31s);
    transition: all .7s ease;
-   height: 60px;	  
+   height: 60px;
+   padding-top: 14;	  
   }
 	
  .nav-elm{
    color:#fff;
+   	 
 	}
   .navbar-brand:hover, .nav-link:hover {
     color: $accent-color; //!important;
