@@ -37,6 +37,16 @@ description: The post shows the details about the capabilities of ERMAC android 
      - Kazakhstan
      - Kyrgyzstan
      - Moldova
+
+    |-----------------+------------+-----------------+----------------|
+    |                 |            |                 |                |
+    |-----------------|:-----------|:---------------:|---------------:|
+    | First body part |            | Third cell      | fourth cell    |
+    |-----------------+------------+-----------------+----------------|
+    | Second body     |            |                 |                |
+    | 2 line          |            |                 |                |
+    |=================+============+=================+================|
+
    
   ## Existence of emulation
   - For this factor, The malware tried to find whether it's executing in real device or in emulator and achieve goal by.
