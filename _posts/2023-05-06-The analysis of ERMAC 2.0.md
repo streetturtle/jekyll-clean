@@ -13,13 +13,28 @@ description: The post shows the details about the capabilities of ERMAC android 
 - Before the malware proceeds to do any initialization or registration, it checks whether the victim device is interesting based on the following two factors: 
  
   ## Countries of interest 
-  - Firstly, The malware tries to retrieve **Mobile Country Code (MCC)** to identify the country of the device by calling the API function `getNetworkCountryIso` as appears in the below screenshot. 
+  - Firstly, The malware tries to retrieve a country code string equivalent of the MCC **Mobile Country Code (MCC)** to identify the country of the device by calling the API function `getNetworkCountryIso` as appears in the below screenshot. 
   
-    ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting MCC**)*
+    ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting country code for MCC**)*
   
-  - In case This function returns an empty **Mobile Country Code (MCC)**, the malware will try to get the country code of the default locale as appear in the below screenshot.
+  - In case This function returns an empty string, the malware will try to get the country code of the default locale as appear in the below screenshot.
      
      ![img]({{ '/assets/images/ermac_2.png' | relative_url }}){: .center-image }*(**Getting default locale's country**)*
+     
+  - The malware will consider the infected device as interesting if it's located out of the following countries: 
+     1. Ukraine 
+     2. Russian Federation 
+     3. Belarus
+     4. Tajikistan
+     5. Uzbekistan
+     6. Turkmenistan
+     7. Azerbaijan
+     8. Armenia
+     9. Kazakhstan
+     10. Kyrgyzstan
+     11. Moldova
+     
+   
     
   
   
