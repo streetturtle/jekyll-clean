@@ -26,11 +26,10 @@ description: The post shows the details about the capabilities of ERMAC android 
      ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**non-interesting country codes**)*
   
   - These countries are the following:
-    1. dsdasa                  2.dsadsadsa                    3. dsadsas
    
      |-----------------+------------+-----------------+----------------+----------+----------|
      |-----------------|:-----------|:---------------:|---------------:|----------|:---------|
-     | 1.Ukraine        |2.Russian Federation          |3.Belarus        |4.Tajikistan| 5. Uzbekistan | 6. Turkmenistan  |
+     | 1.Ukraine       |            | 2.Russian Federation |           | 3.Belarus|   | 4.Tajikistan|
      |-----------------+------------+-----------------+----------------+----------------------
      | 7. Azerbaijan   |  8. Armenia|  9. Kazakhstan  |  10. Kazakhstan | 11. Moldova|       |
      |=================+============+=================+================+==========+==========|
