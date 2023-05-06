@@ -13,7 +13,7 @@ description: The post shows the details about the capabilities of ERMAC android 
 - Before the malware proceeds to do any initialization or registration, it checks whether the victim device is interesting based on the following two factors: 
  
   ## Countries of interest 
-  - For this factor, The malware tries to retrieve a country code string equivalent of the MCC **Mobile Country Code (MCC)** to identify the country of the device by calling the API function `getNetworkCountryIso` as appears in the below screenshot. 
+  - For this factor, The malware tries to retrieve a country code string equivalent of the **Mobile Country Code (MCC)** to identify the country of the device by calling the API function `getNetworkCountryIso` as appears in the below screenshot. 
   
     ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting country code for MCC**)*
   
