@@ -23,20 +23,19 @@ description: The post shows the details about the capabilities of ERMAC android 
      
   - The malware will consider the infected device as **interesting** if it's located out of the the countries with the country codes in the below screenshot.
      
-     ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**Non-interesting country codes**)*
-     
+     ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**Non-interesting country codes**)*     
   - These countries are the following:
-     - Ukraine
-     - Russian Federation
-     - Belarus 
-     - Tajikistan
-     - Uzbekistan
-     - Turkmenistan
-     - Azerbaijan
-     - Armenia
-     - Kazakhstan
-     - Kyrgyzstan
-     - Moldova
+    - Ukraine
+    - Russian Federation
+    - Belarus 
+    - Tajikistan
+    - Uzbekistan
+    - Turkmenistan
+    - Azerbaijan
+    - Armenia
+    - Kazakhstan
+    - Kyrgyzstan
+    - Moldova
 
   ## Existence of emulation
   - For this factor, The malware tried to find whether it's executing in real device or in emulator and achieve goal by.
