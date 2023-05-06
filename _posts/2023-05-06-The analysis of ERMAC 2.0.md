@@ -26,9 +26,18 @@ description: The post shows the details about the capabilities of ERMAC android 
      ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**Non-interesting country codes**)*
      
   - These countries are the following:
-     - num1
-     - num2
-     - num3 
+     - Ukraine
+     - Russian Federation
+     - Belarus 
+     - Tajikistan
+     - Uzbekistan
+     - Turkmenistan
+     - Azerbaijan
+     - Armenia
+     - Kazakhstan
+     - Kyrgyzstan
+     - Moldova
+
   ## Existence of emulation
   - For this factor, The malware tried to find whether it's executing in real device or in emulator and achieve goal by.
 
