@@ -7,12 +7,21 @@ description: The post shows the details about the capabilities of ERMAC android 
 ---
 
 # Intro
-- **ERMAC** is a well-known Android bank trojan, developed based on another Android bank trojan called **Cerberus**. Its first version was detected targeting Poland in 2021 with the capability of stealing credentials. In This post, I will present the details of my analysis of the second version of the ERMAC trojan that sold on darknet sites.   
+- **ERMAC** is a well-known Android bank trojan, developed based on another Android bank trojan called **Cerberus**. Its first version was detected targeting Poland in 2021 with the capability of stealing credentials. In This post, I will present the details of my analysis of the second version of the ERMAC trojan that is sold on darknet sites.   
 
-# Perform Initialization 
+# Check for valid victims
+- Before the malware proceeds to do any initialization or registration, it checks whether the victim device is interesting based on the following two factors:
 
-# Granting the permissions
+## Countries of interest 
 
-# Enable accessibility service
+## Emulation detection
+
+
+
+# Perform initialization
+
+# Granting the needed permissions
+
+# Enable the accessibility service
 
  
