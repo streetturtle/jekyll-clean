@@ -25,9 +25,10 @@ description: The post shows the details about the capabilities of ERMAC android 
      
      ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**Non-interesting country codes**)*
   
-  - These countries are the following: 
-    1. hello &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2. hello2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  3. hello3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  4. hello4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  5. hello5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  6. hello6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;7. hello7 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  8. hello8 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  9. hello9 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  10. hello10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11. hello11
-
+  - These countries are the following:
+     1. num1
+     2. num2
+     3. num3 
    
    
   ## Existence of emulation
