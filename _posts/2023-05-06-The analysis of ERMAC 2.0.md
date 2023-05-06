@@ -21,18 +21,15 @@ description: The post shows the details about the capabilities of ERMAC android 
      
      ![img]({{ '/assets/images/ermac_2.png' | relative_url }}){: .center-image }*(**Getting default locale's country**)*
      
-  - The malware will consider the infected device as interesting if it's located out of the following countries: 
-     1. Ukraine 
-     2. Russian Federation 
-     3. Belarus
-     4. Tajikistan
-     5. Uzbekistan
-     6. Turkmenistan
-     7. Azerbaijan
-     8. Armenia
-     9. Kazakhstan
-     10. Kyrgyzstan
-     11. Moldova
+  - The malware will consider the infected device as interesting if it's located out of the below countries on the left side that matches the country codes that exist in the screenshot on the right side:
+    |-----------------+------------+-----------------+----------------|  
+    |                 |            |                 |                |
+    |-----------------|:-----------|:---------------:|---------------:|
+    | a               |Second cell | Third cell      | ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting country code for MCC**)*    |
+    | b               |foo         | **strong**      |                |
+    | c               |quux        | baz             |                |
+    |-----------------+------------+-----------------+----------------|
+    
      
    
     
