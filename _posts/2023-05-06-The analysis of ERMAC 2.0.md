@@ -29,9 +29,9 @@ description: The post shows the details about the capabilities of ERMAC android 
   
      |-----------------+------------+-----------------+----------------+----------+----------|
      |-----------------|:-----------|:---------------:|---------------:|----------|:---------|
-     | 1.Ukraine|     2.Russian Federation|     3.Belarus|     4.Tajikistan     |5. Uzbekistan |  |
+     | 1.Ukraine       |2.Russian Federation          |3.Belarus       |4.Tajikistan| 5. Uzbekistan | 6. Turkmenistan  |
      |-----------------+------------+-----------------+----------------+----------------------
-     | 2 line          |            |                 |                |          |          |
+     | 7. Azerbaijan   |  8. Armenia|  9. Kazakhstan  |  10. Kazakhstan | 11. Moldova|       |
      |=================+============+=================+================+==========+==========|
 
     
