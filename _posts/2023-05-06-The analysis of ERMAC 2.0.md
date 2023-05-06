@@ -11,9 +11,11 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 # Check for valid victims
 - Before the malware proceeds to do any initialization or registration, it checks whether the victim device is interesting based on the following two factors:
+ 
   ## Countries of interest 
   - here1
- ## Existence of emulation
+  
+  ## Existence of emulation
   - here2
 
 
