@@ -14,7 +14,8 @@ description: The post shows the details about the capabilities of ERMAC android 
  
   ## Countries of interest 
   - Firstly, The malware tries to retrieve **Mobile Country Code (MCC)** to identify the country of the device by call API function `getNetworkCountryIso` as appear in the below screen shot.  
-    ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }(**Getting MCC**)
+  
+    ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting MCC**)*
   
   ## Existence of emulation
   - here2
