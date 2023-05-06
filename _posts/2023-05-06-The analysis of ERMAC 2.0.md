@@ -26,7 +26,6 @@ description: The post shows the details about the capabilities of ERMAC android 
      ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**Non-interesting country codes**)*
   
   - These countries are the following: 
-
     |-----------+------------+---------+----------------+-----------+-----------+-----------+
     |           |            |         |                |           |           |           |
     |-----------|:-----------|:-------:|---------------:|----------:|----------:|----------:|
