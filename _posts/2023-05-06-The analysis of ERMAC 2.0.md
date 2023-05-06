@@ -21,14 +21,12 @@ description: The post shows the details about the capabilities of ERMAC android 
      
      ![img]({{ '/assets/images/ermac_2.png' | relative_url }}){: .center-image }*(**Getting default locale's country**)*
      
-  - The malware will consider the infected device as interesting if it's located out of the below countries on the left side that matches the country codes that exist in the screenshot on the right side:
-    |-----------------+------------+-----------------+----------------|  
-    |                 |            |                 |                |
-    |-----------------|:-----------|:---------------:|---------------:|
-    | a               |Second cell | Third cell      | ![img]({{ '/assets/images/ermac_1.png' | relative_url }}){: .center-image }*(**Getting country code for MCC**)*    |
-    | b               |foo         | **strong**      |                |
-    | c               |quux        | baz             |                |
-    |-----------------+------------+-----------------+----------------|
+  - The malware will consider the infected device as **interesting** if it's located out of the the countries with the country codes in the below screenshot.
+     
+     ![img]({{ '/assets/images/ermac_3.png' | relative_url }}){: .center-image }*(**non-interesting country codes**)*
+  
+  - These countries are the following:
+      
     
      
    
