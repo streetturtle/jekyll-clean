@@ -68,7 +68,7 @@ description: The post shows the details about the capabilities of ERMAC android 
   - Set key **datakeylogger** which later will hold keylogging data, with empty string.      
    
  ![img]({{ '/assets/images/ermac_6.png' | relative_url }}){: .center-image }*(**Bot's initialization**)*
- 
+ <br/>
 
 # Enable the accessibility service
 
