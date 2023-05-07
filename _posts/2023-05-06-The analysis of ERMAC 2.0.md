@@ -88,6 +88,6 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 # Granting the needed permissions
 
-
+- here
 
  
