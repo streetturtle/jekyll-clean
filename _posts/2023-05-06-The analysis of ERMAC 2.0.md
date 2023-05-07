@@ -80,7 +80,12 @@ description: The post shows the details about the capabilities of ERMAC android 
    
   ![img]({{ '/assets/images/ermac_8.png' | relative_url }}){: .center-image }*(**The screen appears to user**)*
  
- 
+- When the user clicks on the above **GO TO SETTINGS**, the below code gets executed and shows the accessibility settings page.
+  
+  ![img]({{ '/assets/images/ermac_9.png' | relative_url }}){: .center-image }*(**Open up the accessibility settings page**)*
+     
+<br/>
+
 # Granting the needed permissions
 
 
