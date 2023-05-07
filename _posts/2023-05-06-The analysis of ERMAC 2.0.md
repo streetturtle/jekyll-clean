@@ -39,8 +39,15 @@ description: The post shows the details about the capabilities of ERMAC android 
      <br/>
    
   ## Existence of emulation
-  - For this factor, The malware tried to find whether it's executing in real device or in emulator and achieve goal by.
-
+  - Regarding this factor, The malware will try to find whether it's executing in an emulator or a real device.
+  - The emulator will get detected if the following Android build properties contain values that usually set in the emulating environment. 
+    - `Build.FINGERPRINT` contains any strings like **"generic"** or **"unknown"**.
+    - `Build.Model` contains any strings like **"google_sdk"**,  **"Emulator"** or **"Android SDK built for x86"**.
+    - `Build.MANUFACTURER` contains string **"Genymotion"**.
+    - `Build.BRAND` contains string **"generic"**.
+    - `Build.DEVICE` contains string **"generic"**.
+    - `Build.PRODUCT` equals string **"google_sdk"**.
+  
 
 # Perform initialization
 
