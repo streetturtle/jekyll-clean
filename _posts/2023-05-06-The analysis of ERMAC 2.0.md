@@ -72,7 +72,15 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 # Enable the accessibility service
 
-
+- So that the malware performs its functionalities and enables the needed permissions, it needs the user to enable its accessibility service.
+- In order to achieve that, The malware disguises itself as a **Google Chrome** and requires the user to enable accessibility service.
+- First, it performs base-64 decoding for encoded html code, then loads it in web view as appears in the below screenshots.
+ 
+  ![img]({{ '/assets/images/ermac_7.png' | relative_url }}){: .center-image }*(**Decoding and loading html to web view**)*
+   
+  ![img]({{ '/assets/images/ermac_8.png' | relative_url }}){: .center-image }*(**The screen appears to user**)*
+ 
+ 
 # Granting the needed permissions
 
 
