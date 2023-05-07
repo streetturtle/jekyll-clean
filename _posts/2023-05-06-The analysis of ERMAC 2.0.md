@@ -62,10 +62,10 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 - After that, it initializes the shared preference with the following as appears in the below screenshot:
    
-   - Set key **urlAdminPanel** which is default C2 url, with string value **hxxp://185[.]215[.]113.59[:]3434**.
-   - Set key **initialization** with value **good**.
-   - Set key **events** which hold the logs, with empty string.
-   - Set key **datakeylogger** which later will hold keylogging data, with empty string.      
+  - Set key **urlAdminPanel** which is default C2 url, with string value **hxxp://185[.]215[.]113.59[:]3434**.
+  - Set key **initialization** with value **good**.
+  - Set key **events** which hold the logs, with empty string.
+  - Set key **datakeylogger** which later will hold keylogging data, with empty string.      
    
  ![img]({{ '/assets/images/ermac_6.png' | relative_url }}){: .center-image }*(**Bot's initialization**)*
  
