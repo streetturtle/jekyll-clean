@@ -48,6 +48,7 @@ description: The post shows the details about the capabilities of ERMAC android 
     - `Build.DEVICE` contains string **"generic"**.
     - `Build.PRODUCT` equals string **"google_sdk"**.
     
+    
     ![img]({{ '/assets/images/ermac_4.png' | relative_url }}){: .center-image }*(**Emulation detection**)*
 
 
