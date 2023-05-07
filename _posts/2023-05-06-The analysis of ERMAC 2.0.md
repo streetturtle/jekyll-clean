@@ -70,9 +70,11 @@ description: The post shows the details about the capabilities of ERMAC android 
  ![img]({{ '/assets/images/ermac_6.png' | relative_url }}){: .center-image }*(**Bot's initialization**)*
  
 
+# Enable the accessibility service
+
 
 # Granting the needed permissions
 
-# Enable the accessibility service
+
 
  
