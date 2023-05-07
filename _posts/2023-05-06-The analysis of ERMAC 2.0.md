@@ -88,6 +88,9 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 # Granting the needed permissions
 
-- here
+## Draw overlay permission
 
+## Display pop-up windows while running in the background permission
+
+## Other permissions
  
