@@ -50,10 +50,17 @@ description: The post shows the details about the capabilities of ERMAC android 
     
        ![img]({{ '/assets/images/ermac_4.png' | relative_url }}){: .center-image }*(**Emulation detection**)*
    
-- Therefore, The victim device is **interesting** if it's not an emulator beside being located out of the previously mentioned countries. 
+- Therefore, The victim device is an **interesting** if it's not an emulator beside being located out of the previously mentioned countries. 
 
 
 # Perform initialization
+
+- If the victim device is interesting, the malware will start initializing certain keys of shared preference called **settings**.
+- First, it generated bot id that matches the regex **[a-z0-9]{17}** then save it under key named **idbot** in shared preferences as appear in the below screenshot.
+  
+  ![img]({{ '/assets/images/ermac_5.png' | relative_url }}){: .center-image }*(**botID generation**)*
+
+
 
 # Granting the needed permissions
 
