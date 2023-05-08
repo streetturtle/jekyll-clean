@@ -90,6 +90,24 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 ## Draw overlay permission
 
+- In order to draw over other applications screens, The draw overlay permission needed to be enabled. 
+- For Samsung devices, The following code is intended to show the screen that requests this permission. Also, it set key **autoClickPerm** to **"1"** in the shared preference, to signal the accessibility service to perform auto click on slider button. 
+  
+   ![img]({{ '/assets/images/ermac_10.png' | relative_url }}){: .center-image }*(**Request Overlay Permission**)*  
+
+- As a proof of concept, I imitate the previous code considering that the application name **My Application** that appears in the below screenshot, as a virus application name.
+
+   ![img]({{ '/assets/images/ermac_11.png' | relative_url }}){: .center-image }*(**Overlay Request Screens**)*
+
+- Now comes the role of the accessibility service to click on the above virus application name from the list.
+
+   ![img]({{ '/assets/images/ermac_12.png' | relative_url }}){: .center-image }*(**Select the virus application**)*  
+
+- Then, click on slider button as appear in the below code and set **autoClickPerm** to empty string.
+   
+   ![img]({{ '/assets/images/ermac_13.png' | relative_url }}){: .center-image }*(**Clicking the slider button**)*  
+
+
 ## Display pop-up windows while running in the background permission
 
 ## Other permissions
