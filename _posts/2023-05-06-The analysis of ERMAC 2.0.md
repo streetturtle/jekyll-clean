@@ -88,6 +88,8 @@ description: The post shows the details about the capabilities of ERMAC android 
 
 # Granting the needed permissions
 
+- For the purpose that the malware performing its functionalities, the following permissions are needed to be granted.
+
 ## Draw overlay permission
 
 - In order to draw over other applications screens, The draw overlay permission needed to be enabled. 
