@@ -102,11 +102,11 @@ description: The post shows the details about the capabilities of ERMAC android 
 
    ![img]({{ '/assets/images/ermac_11.png' | relative_url }}){: .center-image }*(**Overlay Request Screens**)*
 
-- Now comes the role of the accessibility service to click on the above virus application name from the list.
+- Now comes the role of the accessibility service to auto-click on the above virus application name from the list of applications.
 
    ![img]({{ '/assets/images/ermac_12.png' | relative_url }}){: .center-image }*(**Select the virus application**)*  
 
-- After that, it clicks on the slider button as appears in the below code and sets **autoClickPerm** to an empty st
+- After that, it clicks on the slider button as appears in the below code and sets **autoClickPerm** to an empty string indicating that no more overlay permission clicks are needed.
    
    ![img]({{ '/assets/images/ermac_13.png' | relative_url }}){: .center-image }*(**Clicking the slider button**)*  
 
